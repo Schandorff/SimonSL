@@ -1,0 +1,32 @@
+.particles-js-canvas-el{
+  background: #ff384f; /* Old browsers */
+  background: -moz-linear-gradient(45deg, #ff384f 0%, #a83279 0%, #d38312 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #ff384f 0%,#a83279 0%,#d38312 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #ff384f 0%,#a83279 0%,#d38312 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff384f', endColorstr='#d38312',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  position: fixed;
+  height: 100%;
+  top: 0;
+}
+.mdl-layout__header{
+  color: #fff;
+}
+.mdl-layout__header .mdl-layout__drawer-button{
+  color: #fff;
+}
+.mdl-layout__header{
+  background-color: #33d0de;
+}
+.innerContainer{
+  margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .content{
+      z-index: 99999;
+      h1{
+        font-family: 'Nunito';
+        color: #fff;
+      }
+    }
+}
