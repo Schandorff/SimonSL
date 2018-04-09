@@ -5,8 +5,10 @@ import App from './App'
 import router from './router'
 import mdl from 'material-design-lite'
 import VueParticles from 'vue-particles'
+import VueBreadcrumbs from 'vue-breadcrumbs'
 
 Vue.use(VueParticles)
+Vue.use(VueBreadcrumbs)
 
 
 Vue.config.productionTip = false

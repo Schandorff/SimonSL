@@ -19,6 +19,9 @@ a{
 }
 .mdl-layout__header{
   background-color: #33d0de;
+  a{
+    text-decoration: none;
+  }
 }
 .innerContainer{
   margin: 0 auto;
@@ -32,4 +35,10 @@ a{
         color: #fff;
       }
     }
+}
+.mdl-layout-title{
+  a{
+    color: rgb(255,64,129);
+    text-decoration: none;
+  }
 }

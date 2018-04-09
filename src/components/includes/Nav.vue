@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title"><a href="/">SimonSL</a></span>
+    <span class="mdl-layout-title"><router-link :to="{ name: 'index', params: {} }">SimonSL</router-link></span>
     <nav class="mdl-navigation">
       <router-link to="Projects" class="mdl-navigation__link">Projects</router-link>
       <router-link to="About" class="mdl-navigation__link">About</router-link>

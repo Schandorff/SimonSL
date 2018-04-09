@@ -12,7 +12,7 @@
 
         </div>
         <div class="mdl-card__actions mdl-card--border">
-          <router-link :to='"/project/" + project.id' class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+          <router-link :to='"/Projects/" + project.id' class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
             Read more
           </router-link>
         </div>
